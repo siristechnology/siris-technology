@@ -1,58 +1,56 @@
-import React, { Fragment } from 'react';
-import Sticky from 'react-stickynode';
-import { ThemeProvider } from 'styled-components';
-import { Modal } from '@redq/reuse-modal';
-import { agencyTheme } from 'common/src/theme/agency';
-import { ResetCSS } from 'common/src/assets/css/style';
-import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
-import Navbar from '../containers/Agency/Navbar';
-import BannerSection from '../containers/Agency/BannerSection';
-import FeatureSection from '../containers/Agency/FeatureSection';
-import AboutUsSection from '../containers/Agency/AboutUsSection';
-import WorkHistory from '../containers/Agency/WorkHistory';
-import BlogSection from '../containers/Agency/BlogSection';
-import TestimonialSection from '../containers/Agency/TestimonialSection';
-import TeamSection from '../containers/Agency/TeamSection';
-import VideoSection from '../containers/Agency/VideoSection';
-import FaqSection from '../containers/Agency/FaqSection';
-import NewsletterSection from '../containers/Agency/NewsletterSection';
-import QualitySection from '../containers/Agency/QualitySection';
-import Footer from '../containers/Agency/Footer';
-import { DrawerProvider } from 'common/src/contexts/DrawerContext';
-import '@redq/reuse-modal/es/index.css';
-import SEO from '../components/seo';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { theme } from "common/src/theme/appclassic";
+import { ResetCSS } from "common/src/assets/css/style";
+import Sticky from "react-stickynode";
+import Navbar from "../containers/AppClassic/Navbar";
+import Banner from "../containers/AppClassic/Banner";
+import Customer from "../containers/AppClassic/Customer";
+import KeyFeatures from "../containers/AppClassic/KeyFeatures";
+import AppSlider from "../containers/AppClassic/AppSlider";
+import Features from "../containers/AppClassic/Features";
+import DesignedAndBuilt from "../containers/AppClassic/DesignedAndBuilt";
+import FeatureTab from "../containers/AppClassic/FeatureTab";
+import PricingPolicy from "../containers/AppClassic/PricingPolicy";
+import Testimonial from "../containers/AppClassic/Testimonial";
+import Faq from "../containers/AppClassic/Faq";
+import JoinTrail from "../containers/AppClassic/JoinTrail";
+import Footer from "../containers/AppClassic/Footer";
+import GlobalStyle, {
+  AppWrapper,
+  ContentWrapper
+} from "../containers/AppClassic/appClassic.style";
 
-export default () => {
+import SEO from "../components/seo";
+
+export default function() {
   return (
-    <ThemeProvider theme={agencyTheme}>
-      <Fragment>
-        <SEO title="Agency" />
-        <Modal />
+    <ThemeProvider theme={theme}>
+      <>
+        <SEO title="App Classic" />
         <ResetCSS />
         <GlobalStyle />
-        {/* End of agency head section */}
-        {/* Start agency wrapper section */}
-        <AgencyWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
-            <DrawerProvider>
-              <Navbar />
-            </DrawerProvider>
+
+        <AppWrapper>
+          <Sticky top={0} innerZ={9999} activeClass="sticky-active">
+            <Navbar />
           </Sticky>
-          <BannerSection />
-          <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          <BlogSection />
-          <QualitySection />
-          <VideoSection />
-          <TestimonialSection />
-          <TeamSection />
-          <FaqSection />
-          <NewsletterSection />
+          <ContentWrapper>
+            <Banner />
+            <Customer />
+            <KeyFeatures />
+            <AppSlider />
+            <Features />
+            <DesignedAndBuilt />
+            <FeatureTab />
+            <PricingPolicy />
+            <Testimonial />
+            <Faq />
+            <JoinTrail />
+          </ContentWrapper>
           <Footer />
-        </AgencyWrapper>
-        {/* End of agency wrapper section */}
-      </Fragment>
+        </AppWrapper>
+      </>
     </ThemeProvider>
   );
-};
+}
