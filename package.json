@@ -30,13 +30,9 @@
 		"clean": "lerna clean --yes && rimraf node_modules",
 		"start": "lerna run --parallel dev",
 		"preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
-		"next-dev": "yarn workspace next-landing run dev",
-		"next-build": "rimraf dist && yarn workspace next-landing run build",
-		"next-start": "yarn workspace next-landing run start",
-		"next-export": "yarn workspace next-landing run export",
-		"gatsby-dev": "yarn workspace gatsby-landing run dev",
-		"gatsby-build": "yarn workspace gatsby-landing run build",
-		"gatsby-serve": "yarn workspace gatsby-landing run serve",
+		"dev": "yarn workspace gatsby-landing run dev",
+		"build": "yarn workspace gatsby-landing run build",
+		"serve": "yarn workspace gatsby-landing run serve",
 		"prebuild-public": "rimraf \"dist/functions/**\" && rimraf \"dist/public\"",
 		"prefirebase-serve": "yarn run build-public && yarn run build-funcs && yarn workspace next-landing run build && yarn run copy-deps && yarn run install-deps",
 		"firebase-serve": "cross-env NODE_ENV=production firebase serve",
@@ -62,5 +58,8 @@
 			"prettier --trailing-comma es5 --single-quote --write",
 			"git add"
 		]
+	},
+	"engines": {
+		"node": ">=10.14"
 	}
 }
