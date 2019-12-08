@@ -4,6 +4,7 @@
 node_modules
 .docz
 .vscode
+
 # testing
 /coverage
 
@@ -13,6 +14,7 @@ node_modules
 .next
 next
 out
+
 # misc
 .DS_Store
 .env
@@ -25,8 +27,8 @@ packages/functions/next
 package-lock.json
 .firebase
 .firebaserc
+
 #submodule
-packages/reusecore
 .cache/
 now.json
 firebase.json
