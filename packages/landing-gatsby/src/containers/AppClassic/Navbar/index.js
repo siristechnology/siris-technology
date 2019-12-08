@@ -89,9 +89,9 @@ const Navbar = () => {
       <Container>
         <Logo
           className="logo"
-          href="/appclassic"
+          href="/"
           logoSrc={logo.publicURL}
-          title="App Classic"
+          title="Siris Technology"
         />
         {/* end of logo */}
 

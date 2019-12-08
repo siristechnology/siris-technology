@@ -31,7 +31,7 @@ GatsbyJs server will start in `localhost:8000`
 3. React Js
 4. Gatsby Js
 5. Styled System and Styled Components
-6. Firebase Deployment.
+6. Netlify Deployment.
 
 
 # Explaining Containers
