@@ -1,4 +1,3 @@
 [build]
   command = "yarn build"
   publish = "packages/landing-gatsby/public"
-  functions = "packages/functions"
