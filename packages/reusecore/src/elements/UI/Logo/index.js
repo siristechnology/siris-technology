@@ -17,19 +17,13 @@ const Logo = ({
   <Link {...props} {...logoWrapperStyle}>
     {withAchor ? (
       <a {...anchorProps}>
-        {logoSrc ? (
-          <Image src={logoSrc} alt={title} {...logoStyle} />
-        ) : (
-          <Text content={title} {...titleStyle} />
-        )}
+        <Image src={logoSrc} alt={title} {...logoStyle} />
+        <Text content={title} {...titleStyle} />
       </a>
     ) : (
       <>
-        {logoSrc ? (
-          <Image src={logoSrc} alt={title} {...logoStyle} />
-        ) : (
-          <Text content={title} {...titleStyle} />
-        )}
+        <Image src={logoSrc} alt={title} {...logoStyle} />
+        <Text content={title} {...titleStyle} />
       </>
     )}
   </Link>
@@ -55,7 +49,6 @@ Logo.defaultProps = {
   },
   titleStyle: {
     display: 'inline-block',
-    fontSize: '2rem',
     lineHeight: 'inherit',
     whiteSpace: 'nowrap'
   }

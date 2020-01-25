@@ -20,8 +20,9 @@ const NavbarWrapper = styled.nav`
     justify-content: space-between;
     .logo {
       img {
-        width: 128px;
+        width: 48px;
         height: auto;
+        display: inline-block;
       }
     }
   }
