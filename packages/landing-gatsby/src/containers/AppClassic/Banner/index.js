@@ -27,7 +27,7 @@ const Banner = () => {
 						</RatingInfo>
 					</Fade>
 					<Fade up delay={100}>
-						<Heading as="h1" content="We are launching NepalToday App in Android Store" />
+						<Heading as="h1" content="NepalToday App is now available in Android Store" />
 					</Fade>
 					<Fade up delay={200}>
 						<Text content="A news aggregation app that delivers relevant trending news from Nepal" />
