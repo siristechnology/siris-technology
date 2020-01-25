@@ -10,26 +10,20 @@
       },
       {
         "id": 2,
-        "label": "Key Features",
-        "path": "#keyFeatures",
+        "label": "Projects",
+        "path": "#projects",
         "offset": "84"
       },
       {
         "id": 3,
-        "label": "Pricing",
-        "path": "#pricing",
+        "label": "Blog",
+        "path": "#Blog",
         "offset": "84"
       },
       {
         "id": 4,
-        "label": "Testimonial",
-        "path": "#testimonial",
-        "offset": "80"
-      },
-      {
-        "id": 5,
-        "label": "Faq",
-        "path": "#faq",
+        "label": "About",
+        "path": "#about",
         "offset": "80"
       }
     ]

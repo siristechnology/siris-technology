@@ -5,7 +5,6 @@ import { ResetCSS } from "common/src/assets/css/style";
 import Sticky from "react-stickynode";
 import Navbar from "../containers/AppClassic/Navbar";
 import Banner from "../containers/AppClassic/Banner";
-import Customer from "../containers/AppClassic/Customer";
 import KeyFeatures from "../containers/AppClassic/KeyFeatures";
 import AppSlider from "../containers/AppClassic/AppSlider";
 import Features from "../containers/AppClassic/Features";
@@ -13,7 +12,6 @@ import DesignedAndBuilt from "../containers/AppClassic/DesignedAndBuilt";
 import FeatureTab from "../containers/AppClassic/FeatureTab";
 import PricingPolicy from "../containers/AppClassic/PricingPolicy";
 import Testimonial from "../containers/AppClassic/Testimonial";
-import Faq from "../containers/AppClassic/Faq";
 import JoinTrail from "../containers/AppClassic/JoinTrail";
 import Footer from "../containers/AppClassic/Footer";
 import GlobalStyle, {
@@ -37,7 +35,6 @@ export default function() {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            <Customer />
             <KeyFeatures />
             <AppSlider />
             <Features />
@@ -45,7 +42,6 @@ export default function() {
             <FeatureTab />
             <PricingPolicy />
             <Testimonial />
-            <Faq />
             <JoinTrail />
           </ContentWrapper>
           <Footer />

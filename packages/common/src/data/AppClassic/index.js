@@ -14,7 +14,7 @@
   - widget
   - logo
   - menu
-  - copyright 
+  - copyright
 */
 
 /* ------------------------------------ */
@@ -33,28 +33,22 @@ export const navbar = {
     },
     {
       id: 2,
-      label: 'Key Features',
+      label: 'Projects',
       path: '#keyFeatures',
       offset: '84',
     },
     {
       id: 3,
-      label: 'Pricing',
+      label: 'Blog',
       path: '#pricing',
       offset: '84',
     },
     {
       id: 4,
-      label: 'Testimonial',
+      label: 'About',
       path: '#testimonial',
       offset: '80',
-    },
-    {
-      id: 5,
-      label: 'Faq',
-      path: '#faq',
-      offset: '80',
-    },
+    }
   ],
 };
 
