@@ -51,29 +51,22 @@
     }
   ],
   "keyFeatures": {
-    "slogan": "WHATS THE FUNCTION",
-    "title": "Meet the feature of app",
+    "slogan": "WHAT DO WE DO",
+    "title": "",
     "features": [
       {
         "id": 1,
         "color": "#F55767",
         "icon": "../../assets/image/appClassic/keyFeature-1.svg",
-        "title": "Fast Performance",
-        "description": "Get your blood tests delivered at home collect a sample from the news your blood tests."
+        "title": "Mobile App",
+        "description": "Build beautiful mobile apps that represent the power and life of any business using React-Native."
       },
       {
         "id": 2,
         "color": "#2563FF",
         "icon": "../../assets/image/appClassic/keyFeature-2.svg",
-        "title": "Prototyping",
-        "description": "Get your blood tests delivered at home collect a sample from the news your blood tests."
-      },
-      {
-        "id": 3,
-        "color": "#40975F",
-        "icon": "../../assets/image/appClassic/keyFeature-3.svg",
-        "title": "Vector Editing",
-        "description": "Get your blood tests delivered at home collect a sample from the news your blood tests."
+        "title": "Web App",
+        "description": "Build beautiful web apps & apis using modern technologies including React, Mongo, NodeJS, GraphQL"
       }
     ]
   },
