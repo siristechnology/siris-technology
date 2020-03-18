@@ -13,7 +13,7 @@ const PricingPolicy = () => {
 			appClassicJson {
 				team {
 					members {
-            id
+						id
 						name
 						icon
 						features {
@@ -28,7 +28,7 @@ const PricingPolicy = () => {
 	const { members } = data.appClassicJson.team
 
 	return (
-		<SectionWrapper id="pricing">
+		<SectionWrapper id="team">
 			<Container>
 				<PricingArea>
 					<InnerWrapper>

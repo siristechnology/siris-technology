@@ -22,8 +22,8 @@
       },
       {
         "id": 4,
-        "label": "About",
-        "path": "#about",
+        "label": "Team",
+        "path": "#team",
         "offset": "80"
       }
     ]
@@ -456,26 +456,6 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
   },
   "footer": {
-    "widgets": [
-      {
-        "id": 1,
-        "icon": "../../assets/image/appClassic/chat.svg",
-        "title": "Join the Community",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
-      },
-      {
-        "id": 2,
-        "icon": "../../assets/image/appClassic/group.svg",
-        "title": "Join in Chat Community",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
-      },
-      {
-        "id": 3,
-        "icon": "../../assets/image/appClassic/github.svg",
-        "title": "Github Access",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
-      }
-    ],
     "logo": "../../assets/image/appClassic/logoWhite.png",
     "menu": [
       {
