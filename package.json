@@ -6,7 +6,6 @@
 	"author": "Suraj <syuraj@gmail.com>",
 	"scripts": {
 		"clean": "lerna clean --yes && rimraf node_modules",
-		"start": "lerna run --parallel dev",
 		"preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
 		"dev": "yarn workspace siris-gatsby run dev",
 		"build": "yarn workspace siris-gatsby run build",
