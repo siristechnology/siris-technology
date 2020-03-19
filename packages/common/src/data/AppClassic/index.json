@@ -232,6 +232,10 @@
           {
             "id": 2,
             "text": "Experience in application development, enhancement, client relationship management"
+          },
+          {
+            "id": 3,
+            "text": "Posses a Bachelor in Computer Engineering and Masters in Computer Science"
           }
         ],
         "description": "He is an enthusiastic result-oriented Software Professional with over 10 years of working experience in application development and enhancement, service delivery and client relationship management. He bears insightful knowledge of cutting edge technologies. He posses Bachelor in Computer Engineering and Master in Computer Science. As a key member of team, he has accomplish many projects for different companies in United States."
@@ -240,7 +244,20 @@
         "id": 2,
         "name": "Suresh Shrestha",
         "icon": "/thumbnail/suresh.png",
-        "features": [],
+        "features": [
+          {
+            "id": 1,
+            "text": "Software Architect, Database professional & Freelancer with over 10 yrs of experience."
+          },
+          {
+            "id": 2,
+            "text": "Developed a wide range of applications using different technologies for startup companies to large companies."
+          },
+          {
+            "id": 3,
+            "text": "He is also a Microsoft Certified .Net and Database professional."
+          }
+        ],
         "description": "He is a Software Architect & Database professional having 10+ experience. He has developed a wide range of applications using different technologies for startup companies to large companies from USA, UK, Netherland, Nigeria and many more. He is also a Microsoft Certified .Net and Database professional."
       },
       {
@@ -250,11 +267,11 @@
         "features": [
           {
             "id": 1,
-            "text": "Result-oriented Software Professional with over 10 yrs of experience"
+            "text": "Passionate Software Professional with experience in all aspects of software development life cycle for over 10 years"
           },
           {
             "id": 2,
-            "text": "Experience in application development, enhancement, client relationship management"
+            "text": "Computer Master's graduate of Maharishi University"
           }
         ],
         "description": "Suraj Shrestha is a team member with a decade of experience in software development. He has worked as a software engineer at small and large industries, including financial institutions, marketing, manufacturing, sales and CRM, and others. His volume of experience in all aspects of software development life cycle has contributed in delivering critical software projects on time and on budget. He is a graduate of Maharishi University of Management, Iowa, with an MS degree in Computer Science. He also has a Bachelor’s degree in Computer Engineering from Tribhuvan University, Nepal."
@@ -266,11 +283,15 @@
         "features": [
           {
             "id": 1,
-            "text": "Result-oriented Software Professional with over 10 yrs of experience"
+            "text": "Has experience of Mission critical projects including aeronautical applications for FAA, US Army Corps of Engineers"
           },
           {
             "id": 2,
-            "text": "Experience in application development, enhancement, client relationship management"
+            "text": "He is a Certified SCRUM Master™ as well as Six Sigma Black Belt (™) and posses Project Manager Accredited Certification™"
+          },
+          {
+            "id": 3,
+            "text": "He has MS Degree from Maharishi University, Iowa and Bachelors from Tribhuvan University, Nepal"
           }
         ],
         "description": "Kiran Nepal is a team member with over ten years of experience in software development. He has delivered many mission critical projects relevant to aeronautical applications for Federal Aviation Authority (FAA). He has delivered successful projects to US Army Corps of Engineers. He has also delivered successful projects to Black Entertainment Television™. Kiran has an MS Degree in Computer Science from Maharishi University of Management, Iowa, and a BE in Computer Engineering from Tribhuvan University, Nepal. He is a Certified SCRUM Master™ as well as Six Sigma Black Belt (™). He also bears Project Manager Accredited Certification™."
