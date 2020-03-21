@@ -22,12 +22,12 @@ const NavbarWrapper = styled.nav`
 			display: flex;
 			align-items: center;
 			img {
-				width: 60px;
+				width: 45px;
 				height: auto;
 			}
 			p {
 				margin: auto;
-				margin-left: 4px;
+				margin-left: 6px;
 				font-size: 20px;
 				font-weight: bold;
 			}

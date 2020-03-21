@@ -26,7 +26,7 @@ const Footer = () => {
 			<Container>
 				<MenuArea>
 					<Logo className="logo" href="/" logoSrc={logo.publicURL} title="" />
-					<CopyrightText>Copyright {year} By Siris Technology</CopyrightText>
+					<CopyrightText>Copyright ({year}) by Siris Technology</CopyrightText>
 				</MenuArea>
 			</Container>
 		</FooterArea>
