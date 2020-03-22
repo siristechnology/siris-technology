@@ -26,6 +26,7 @@ const Footer = () => {
 			<Container>
 				<MenuArea>
 					<Logo className="logo" href="/" logoSrc={logo.publicURL} title="" />
+					<CopyrightText>info@siristechnology.com</CopyrightText>
 					<CopyrightText>Copyright ({year}) by Siris Technology</CopyrightText>
 				</MenuArea>
 			</Container>
