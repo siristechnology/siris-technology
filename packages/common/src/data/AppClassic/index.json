@@ -74,17 +74,17 @@
     "carousel": [
       {
         "id": 1,
-        "image": "../../assets/image/appClassic/appSlider1.png",
+        "image": "../../assets/image/appClassic/appSlider1.webp",
         "title": "App Slide 1"
       },
       {
         "id": 2,
-        "image": "../../assets/image/appClassic/appSlider2.png",
+        "image": "../../assets/image/appClassic/appSlider2.webp",
         "title": "App Slide 1"
       },
       {
         "id": 3,
-        "image": "../../assets/image/appClassic/appSlider3.png",
+        "image": "../../assets/image/appClassic/appSlider3.webp",
         "title": "App Slide 1"
       }
     ],

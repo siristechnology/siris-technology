@@ -7,7 +7,7 @@ import Heading from 'reusecore/src/elements/Heading'
 import Container from 'common/src/components/UI/Container'
 import BannerWrapper, { BannerContent, BannerImage, ButtonGroup } from './banner.style'
 
-import bannerImg from 'common/src/assets/image/appClassic/bannerImg.png'
+import bannerImg from 'common/src/assets/image/appClassic/bannerImg.webp'
 import googlePlayBadge from 'common/src/assets/image/appClassic/google-play-badge.png'
 
 const Banner = () => {
@@ -23,7 +23,10 @@ const Banner = () => {
 					</Fade>
 					<Fade up delay={300}>
 						<ButtonGroup>
-							<Link href="https://play.google.com/store/apps/details?id=com.siristechnology.nepaltodayapp" target="_blank">
+							<Link
+								href="https://play.google.com/store/apps/details?id=com.siristechnology.nepaltodayapp"
+								target="_blank"
+							>
 								<Image src={googlePlayBadge} alt="Banner" style={{ height: 60 }} />
 							</Link>
 						</ButtonGroup>
