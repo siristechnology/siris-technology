@@ -118,42 +118,42 @@
       {
         "id": 1,
         "color": "#F55767",
-        "icon": "../../assets/image/appClassic/featureIcon-1.svg",
+        "icon": "../../assets/image/appClassic/react-js.svg",
         "title": "React",
         "description": "World's most popular JavaScript library to build UI, maintained by Facebook."
       },
       {
         "id": 2,
         "color": "#3DABDD",
-        "icon": "../../assets/image/appClassic/featureIcon-2.svg",
+        "icon": "../../assets/image/appClassic/react-native.svg",
         "title": "React Native",
         "description": "JavaScript framework for build native mobile apps in Android & IPhone, maintained by Facebook."
       },
       {
         "id": 3,
         "color": "#D6AB00",
-        "icon": "../../assets/image/appClassic/featureIcon-3.svg",
+        "icon": "../../assets/image/appClassic/mongodb.svg",
         "title": "MongoDB",
         "description": "World's most popular NoSQL database."
       },
       {
         "id": 4,
         "color": "#40975F",
-        "icon": "../../assets/image/appClassic/featureIcon-4.svg",
+        "icon": "../../assets/image/appClassic/nodejs.svg",
         "title": "NodeJS",
         "description": "Most popular open-source, cross-platform, JavaScript runtime."
       },
       {
         "id": 5,
         "color": "#5856D6",
-        "icon": "../../assets/image/appClassic/featureIcon-5.svg",
+        "icon": "../../assets/image/appClassic/graphql.svg",
         "title": "GraphQL",
         "description": "A modern alternative to Rest Api, maintained by Facebook"
       },
       {
         "id": 6,
         "color": "#E97325",
-        "icon": "../../assets/image/appClassic/featureIcon-6.svg",
+        "icon": "../../assets/image/appClassic/gatsby.svg",
         "title": "Gatsby",
         "description": "A react based website framework built for performance."
       }
