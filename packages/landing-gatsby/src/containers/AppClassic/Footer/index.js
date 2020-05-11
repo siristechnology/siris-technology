@@ -28,6 +28,7 @@ const Footer = () => {
 					<Logo className="logo" href="/" logoSrc={logo.publicURL} title="" />
 					<CopyrightText>info@siristechnology.com</CopyrightText>
 					<CopyrightText>Copyright ({year}) by Siris Technology</CopyrightText>
+					<CopyrightText>6312 Cider Barrel Circle, Centreville, VA, 20121</CopyrightText>
 				</MenuArea>
 			</Container>
 		</FooterArea>
