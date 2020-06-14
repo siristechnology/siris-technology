@@ -4,7 +4,7 @@ import searchIcon from 'common/src/assets/image/appClassic/search.svg'
 
 const NavbarWrapper = styled.nav`
 	width: 100%;
-	padding: 25px 0 26px;
+	padding: 15px 0 15px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	background-color: ${themeGet('colors.light', '#FAFBFF')};
 	position: fixed;
@@ -22,12 +22,12 @@ const NavbarWrapper = styled.nav`
 			display: flex;
 			align-items: center;
 			img {
-				width: 34px;
+				width: 50px;
 				height: auto;
 			}
 			p {
-				margin: auto;
 				margin-left: 10px;
+				margin-bottom: -10px;
 				font-size: 20px;
 				font-weight: bold;
 			}
