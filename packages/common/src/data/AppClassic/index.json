@@ -57,7 +57,7 @@
 			{
 				"id": 1,
 				"color": "#333333",
-				"icon": "../../assets/image/appClassic/keyFeature-1.svg",
+				"icon": "../../assets/image/appClassic/nepaltoday.svg",
 				"title": "NepalToday App",
 				"description": "A beautiful news aggregator app designed to personalize news based on user behaviour. Built with the power of React-Native."
 			},
@@ -71,7 +71,7 @@
 			{
 				"id": 3,
 				"color": "#333333",
-				"icon": "../../assets/image/appClassic/keyFeature-1.svg",
+				"icon": "../../assets/image/appClassic/spanilla.svg",
 				"title": "Spanilla App",
 				"description": "Read news in Spanish and English translation side-by-side"
 			}
