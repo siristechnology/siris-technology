@@ -34,7 +34,7 @@ export const navbar = {
 		{
 			id: 2,
 			label: 'Projects',
-			path: '#keyFeatures',
+			path: '#projects',
 			offset: '84'
 		},
 		{
