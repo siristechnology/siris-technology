@@ -22,6 +22,7 @@ const Projects = () => {
 					title
 					features {
 						id
+						link
 						color
 						icon {
 							publicURL
@@ -57,7 +58,11 @@ const Projects = () => {
 										<Icon className="star" icon={starOutline} />
 									</Fragment>
 								}
-								title={<Heading as="h3" content={item.title} />}
+								title={
+									<a href={item.link} target="_blank">
+										<Heading as="h3" content={item.title} />
+									</a>
+								}
 								description={<Text content={item.description} />}
 							/>
 						</Fade>

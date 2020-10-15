@@ -56,24 +56,27 @@
 		"features": [
 			{
 				"id": 1,
-				"color": "#333333",
-				"icon": "../../assets/image/appClassic/nepaltoday.svg",
 				"title": "NepalToday App",
-				"description": "A beautiful news aggregator app designed to personalize news based on user behaviour. Built with the power of React-Native."
+				"description": "A beautiful news aggregator app designed to personalize news based on user behaviour.",
+				"icon": "../../assets/image/appClassic/nepaltoday.svg",
+				"link": "https://play.google.com/store/apps/details?id=com.siristechnology.nepaltodayapp",
+				"color": "#333333"
 			},
 			{
 				"id": 2,
-				"color": "#333333",
-				"icon": "../../assets/image/appClassic/keyFeature-2.svg",
 				"title": "Bollywood Hungama News App",
-				"description": "Brings all latest gossips from the glamorous world of Bollywood"
+				"description": "A react-native app that brings all the latest gossips from the glamorous world of Bollywood.",
+				"icon": "../../assets/image/appClassic/keyFeature-2.svg",
+				"link": "https://play.google.com/store/apps/details?id=com.siristechnology.bollywoodhungama",
+				"color": "#333333"
 			},
 			{
 				"id": 3,
-				"color": "#333333",
-				"icon": "../../assets/image/appClassic/spanilla.svg",
 				"title": "Spanilla App",
-				"description": "Read news in Spanish and English translation side-by-side"
+				"description": "An app designed to help you learn Spanish while reading news.",
+				"icon": "../../assets/image/appClassic/spanilla.svg",
+				"link": "https://play.google.com/store/apps/details?id=com.siristechnology.spanilla",
+				"color": "#333333"
 			}
 		]
 	},
