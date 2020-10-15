@@ -121,9 +121,9 @@ export const keyFeatures = {
 /* ------------------------------------ */
 // App slider data section
 /* ------------------------------------ */
-import appSlide1 from 'common/src/assets/image/appClassic/appSlider1.png'
-import appSlide2 from 'common/src/assets/image/appClassic/appSlider2.png'
-import appSlide3 from 'common/src/assets/image/appClassic/appSlider3.png'
+import appSlide1 from 'common/src/assets/image/appClassic/appSlider1.webp'
+import appSlide2 from 'common/src/assets/image/appClassic/appSlider2.webp'
+import appSlide3 from 'common/src/assets/image/appClassic/appSlider3.webp'
 
 export const appSlider = {
 	carousel: [
