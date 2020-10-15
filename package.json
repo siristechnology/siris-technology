@@ -3,7 +3,7 @@
 	"description": "A technology company",
 	"version": "3.3.0",
 	"private": true,
-	"author": "Suraj <syuraj@gmail.com>",
+	"author": "siris-technology",
 	"scripts": {
 		"clean": "lerna clean --yes && rimraf node_modules",
 		"preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
@@ -51,7 +51,8 @@
 		]
 	},
 	"engines": {
-		"node": ">=10.14"
+		"node": "14.11.0",
+		"npm": ">=6.2.0"
 	},
 	"license": "",
 	"repository": {
