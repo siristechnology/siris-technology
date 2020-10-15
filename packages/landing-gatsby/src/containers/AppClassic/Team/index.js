@@ -1,11 +1,11 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Icon } from 'react-icons-kit'
-import { androidList } from 'react-icons-kit/ionicons/androidList'
+import Fade from 'react-reveal/Fade'
 import Text from 'reusecore/src/elements/Text'
 import Heading from 'reusecore/src/elements/Heading'
 import Container from 'common/src/components/UI/Container'
 import SectionWrapper, { PricingArea, InnerWrapper, PricingCard } from './team.style'
+import { SectionHeader } from '../appClassic.style'
 
 const PricingPolicy = () => {
 	const data = useStaticQuery(graphql`
@@ -30,6 +30,11 @@ const PricingPolicy = () => {
 	return (
 		<SectionWrapper id="team">
 			<Container>
+				<SectionHeader>
+					<Fade up>
+						<Heading as="h5" content={'Team'} />
+					</Fade>
+				</SectionHeader>
 				<PricingArea>
 					<InnerWrapper>
 						{members.map((item) => (

@@ -81,17 +81,27 @@
 		"carousel": [
 			{
 				"id": 1,
-				"image": "../../assets/image/appClassic/appSlider1.webp",
+				"image": "../../assets/image/appClassic/appSlider1.png",
 				"title": "App Slide 1"
 			},
 			{
 				"id": 2,
-				"image": "../../assets/image/appClassic/appSlider2.webp",
+				"image": "../../assets/image/appClassic/appSlider2.png",
 				"title": "App Slide 1"
 			},
 			{
 				"id": 3,
-				"image": "../../assets/image/appClassic/appSlider3.webp",
+				"image": "../../assets/image/appClassic/appSlider3.png",
+				"title": "App Slide 1"
+			},
+			{
+				"id": 4,
+				"image": "../../assets/image/appClassic/appSlider4.png",
+				"title": "App Slide 1"
+			},
+			{
+				"id": 5,
+				"image": "../../assets/image/appClassic/appSlider5.png",
 				"title": "App Slide 1"
 			}
 		],
@@ -102,7 +112,7 @@
 				"id": 1,
 				"icon": "flaticon-atom",
 				"title": "Multiple news source",
-				"description": "It scans high quality news from multiple sources including ekantipur, ratopati, setomati, online-khabar."
+				"description": "It scans high quality news from multiple sources including ekantipur, ratopati, setopati, online-khabar."
 			},
 			{
 				"id": 2,

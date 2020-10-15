@@ -32,9 +32,7 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
 
 	const LinkComponent = ({ menu, onClick }) => {
 		return menu.path.startsWith('http') ? (
-			<a href={menu.path} target="_blank">
-				{menu.label}
-			</a>
+			<a href={menu.path}>{menu.label}</a>
 		) : (
 			<AnchorLink href={menu.path} offset={menu.offset} onClick={onClick}>
 				{menu.label}
