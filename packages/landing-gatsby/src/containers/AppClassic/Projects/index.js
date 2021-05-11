@@ -51,12 +51,12 @@ const Projects = () => {
 							<FeatureBlock
 								style={{ '--color': `${item.color}` }}
 								icon={
-									<Fragment>
+									<a href={item.link} target="_blank">
 										<Icon className="plus" icon={plus} />
 										<Icon className="circle" icon={mediaRecordOutline} />
 										<Image src={item.icon.publicURL} alt={item.title} />
 										<Icon className="star" icon={starOutline} />
-									</Fragment>
+									</a>
 								}
 								title={
 									<a href={item.link} target="_blank">
