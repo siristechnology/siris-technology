@@ -60,47 +60,15 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-plugin-prefetch-google-fonts`,
+			resolve: `gatsby-plugin-google-fonts`,
 			options: {
 				fonts: [
-					{
-						family: `Roboto`,
-						variants: [
-							`100`,
-							`100i`,
-							`300`,
-							`300i`,
-							`400`,
-							`400i`,
-							`500`,
-							`500i`,
-							`700`,
-							`700i`,
-							`900`,
-							`900i`
-						]
-					},
-					{
-						family: `Poppins`,
-						variants: [`300`, `400`, `500`, `600`, `700`]
-					},
-					{
-						family: `Lato`,
-						variants: [`300`, `400`, `700`]
-					},
-					{
-						family: `Open Sans`,
-						variants: [`300`, `400`, `600`, `700`, `800`]
-					},
-					{
-						family: `Raleway`,
-						variants: [`500`, `600`]
-					},
-
-					{
-						family: `Heebo`,
-						variants: [`300`, `400`, `500`, `600`, `700`, `800`]
-					}
+					`Roboto\:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i`,
+					`Poppins\:300,400,500,600,700`,
+					`Lato\:300,400,700`,
+					`Open Sans\:300,400,600,700,800`,
+					`Raleway\:500,600`,
+					`Heebo\:300,400,500,600,700,800`
 				]
 			}
 		}
