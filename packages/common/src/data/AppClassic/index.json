@@ -65,7 +65,7 @@
 			{
 				"id": 2,
 				"title": "NepalToday Podcast App",
-				"description": "A react-native app that brings all the latest gossips from the glamorous world of Bollywood.",
+				"description": "Audio Podcasts from Nepal Politics, Technology, Entertainment.",
 				"icon": "../../assets/image/appClassic/nepaltoday-podcast.svg",
 				"link": "https://play.google.com/store/apps/details?id=com.siristechnology.nepaltodaypodcast",
 				"bgColor": "#e7f3ff"
@@ -76,7 +76,7 @@
 				"description": "An app designed to help you learn Spanish while reading news.",
 				"icon": "../../assets/image/appClassic/spanilla.svg",
 				"link": "https://play.google.com/store/apps/details?id=com.siristechnology.spanilla",
-				"bgColor": "#f4d7d8"
+				"bgColor": "#5fc6e8"
 			}
 		]
 	},

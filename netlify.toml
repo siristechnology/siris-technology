@@ -1,3 +1,4 @@
 [build]
   command = "yarn build"
   publish = "packages/landing-gatsby/public"
+  environment = { NODE_VERSION = "16.13.1" }

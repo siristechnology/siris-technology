@@ -129,6 +129,7 @@ const ImageWrapperWithCircleBackground = styled.img`
 	height: auto;
 	background-color: ${(props) => props.bgColor};
 	border-radius: 50%;
+	padding: 8px;
 `
 
 export const ImageWithCircleBackground = ({ src, alt, bgColor, ...props }) => {
