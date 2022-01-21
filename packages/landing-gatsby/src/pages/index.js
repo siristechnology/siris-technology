@@ -5,7 +5,7 @@ import { ResetCSS } from 'common/src/assets/css/style'
 import Sticky from 'react-stickynode'
 import Navbar from '../containers/AppClassic/Navbar'
 import Banner from '../containers/AppClassic/Banner'
-import KeyFeatures from '../containers/AppClassic/Projects'
+import Projects from '../containers/AppClassic/Projects'
 import AppSlider from '../containers/AppClassic/AppSlider'
 import Features from '../containers/AppClassic/Features'
 import Team from '../containers/AppClassic/Team'
@@ -29,7 +29,7 @@ export default function () {
 					<ContentWrapper>
 						<Banner />
 						<AppSlider />
-						<KeyFeatures />
+						<Projects />
 						<Features />
 						<Team />
 					</ContentWrapper>

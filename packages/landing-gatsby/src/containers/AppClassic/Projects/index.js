@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Fade from 'react-reveal/Fade'
 import { Icon } from 'react-icons-kit'
@@ -7,11 +7,10 @@ import { plus } from 'react-icons-kit/typicons/plus'
 import { starOutline } from 'react-icons-kit/typicons/starOutline'
 import Text from 'reusecore/src/elements/Text'
 import Heading from 'reusecore/src/elements/Heading'
-import Image from 'reusecore/src/elements/Image'
 import Container from 'common/src/components/UI/Container'
 import FeatureBlock from 'common/src/components/FeatureBlock'
 import { SectionHeader } from '../appClassic.style'
-import SectionWrapper, { FeatureWrapper } from './projects.style'
+import SectionWrapper, { FeatureWrapper, ImageWithCircleBackground } from './projects.style'
 
 const Projects = () => {
 	const data = useStaticQuery(graphql`
@@ -23,7 +22,7 @@ const Projects = () => {
 					features {
 						id
 						link
-						color
+						bgColor
 						icon {
 							publicURL
 						}
@@ -54,7 +53,11 @@ const Projects = () => {
 									<a href={item.link} target="_blank">
 										<Icon className="plus" icon={plus} />
 										<Icon className="circle" icon={mediaRecordOutline} />
-										<Image src={item.icon.publicURL} alt={item.title} />
+										<ImageWithCircleBackground
+											src={item.icon.publicURL}
+											alt={item.title}
+											bgColor={item.bgColor}
+										/>
 										<Icon className="star" icon={starOutline} />
 									</a>
 								}
