@@ -1,0 +1,19 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro'
+---
+
+<SiteLayout
+  title="Page not found — Siris Technology"
+  description="The page you requested could not be found."
+  noindex={true}
+>
+  <section class="result-page section">
+    <div class="shell result-card">
+      <span class="result-code">404</span>
+      <p class="kicker">Page not found</p>
+      <h1>Nothing to see here.</h1>
+      <p>The page may have moved, or the address may be incorrect.</p>
+      <a class="button" href="/">Back to home <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+</SiteLayout>

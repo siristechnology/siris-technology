@@ -1,4 +1,16 @@
 [build]
-  command = "yarn build"
-  publish = "packages/landing-gatsby/public"
-  environment = { NODE_VERSION = "16.13.1" }
+  command = "corepack enable && pnpm build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24.11.0"
+  PNPM_VERSION = "11.2.2"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; form-action 'self'; base-uri 'self'; frame-ancestors 'none'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

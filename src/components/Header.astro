@@ -1,0 +1,19 @@
+---
+const pathname = Astro.url.pathname
+const isHome = pathname === '/'
+const isContact = pathname.startsWith('/contact')
+---
+
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="/" aria-label="Siris Technology home">
+      <img src="/assets/siris-logo.png" width="44" height="44" alt="" />
+      <span>Siris Technology</span>
+    </a>
+
+    <nav aria-label="Primary navigation">
+      <a href="/" aria-current={isHome ? 'page' : undefined}>Home</a>
+      <a href="/contact/" aria-current={isContact ? 'page' : undefined}>Contact Us</a>
+    </nav>
+  </div>
+</header>
