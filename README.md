@@ -1,6 +1,6 @@
 # Siris Technology
 
-The Siris Technology company site and launch page for Nepal Today on iOS. It is a static Astro site with no client-side framework or analytics script.
+The Siris Technology company site and launch page for NepalToday on iOS. It is a static Astro site with no client-side framework or analytics script.
 
 ## Local development
 

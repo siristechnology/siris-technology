@@ -113,7 +113,7 @@ test('privacy route documents the app data paths and user controls', async () =>
     'Apple WeatherKit',
     'Firebase Crashlytics',
     'AI-assisted grouping and summaries',
-    'do not include your Nepal Today installation ID',
+    'do not include your NepalToday installation ID',
     'not generated uniquely for you',
     'Netlify',
     '90 days',
@@ -135,6 +135,7 @@ test('static pages load only the first-party slider script', async () => {
   const html = pages.join('\n')
   const scriptSources = [...html.matchAll(/<script[^>]+src="([^"]+)"/gi)].map((match) => match[1])
 
+  assert.doesNotMatch(html, /Nepal Today/)
   assert.doesNotMatch(html, /googletagmanager|google-analytics|segment\.com|facebook\.net/i)
   assert.equal(scriptSources.length, 1)
   assert.equal(scriptSources[0], '/scripts/product-slider.js')

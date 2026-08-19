@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Siris Technology and Nepal Today for iOS",
+  "description": "Siris Technology and NepalToday for iOS",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
