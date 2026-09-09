@@ -13,7 +13,7 @@ test('homepage contains only the current product navigation and launch state', a
   assert.match(html, /Coming soon to (?:the )?App Store/i)
   assert.match(html, /Stay connected(?:<br\s*\/?>)?\s*<em>to Nepal\.<\/em>/i)
   assert.match(html, /src="\/assets\/nepal-today-home\.png"/)
-  assert.match(html, /href="\/privacy\/"/)
+  assert.match(html, /href="\/nepaltoday\/privacy\/"/)
   assert.match(html, /data-product-slider/)
   assert.equal((html.match(/<button[^>]+data-slide-tab/g) ?? []).length, 3)
   assert.match(html, /<strong>News<\/strong>/)
@@ -102,7 +102,7 @@ test('contact route builds a Netlify-compatible, spam-protected form', async () 
 })
 
 test('privacy route documents the app data paths and user controls', async () => {
-  const html = await page('privacy')
+  const html = await page('nepaltoday/privacy')
 
   assert.match(html, /class="policy-heading"/)
   assert.match(html, /<h1>Privacy Policy<\/h1>/)
@@ -131,7 +131,7 @@ test('privacy route documents the app data paths and user controls', async () =>
 })
 
 test('static pages load only the first-party slider script', async () => {
-  const pages = await Promise.all(['', 'contact', 'privacy'].map(page))
+  const pages = await Promise.all(['', 'contact', 'nepaltoday/privacy'].map(page))
   const html = pages.join('\n')
   const scriptSources = [...html.matchAll(/<script[^>]+src="([^"]+)"/gi)].map((match) => match[1])
 
